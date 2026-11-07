@@ -27,7 +27,8 @@ Abrir `http://localhost:4200/`. La aplicación recarga al guardar cambios.
 ## Pruebas
 
 ```bash
-npm test
+npm test          # modo interactivo, recarga al guardar
+npm run test:ci   # una sola ejecución en Chrome sin interfaz
 ```
 
 ## Compilación
